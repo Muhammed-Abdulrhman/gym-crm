@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block title %}
+<h2 class="text-xl font-semibold text-gray-800">Dashboard</h2>
+{% endblock %}
+{% block content %}
+{% if user.is_authenticated %}
+<h2>Hello, {{ username }}<h2>
+{% endif %}
+{% endblock  %}

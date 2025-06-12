@@ -1,0 +1,17 @@
+.success {
+    color: green;
+    font-weight: bold;
+    font-size: small;
+}
+.error {
+    color: red;
+    font-weight: bold;
+    font-size: small;
+}
+
+.fade-out {
+        transition: opacity 2s ease-in-out;
+}
+.hidden {
+    opacity: 5;
+}
